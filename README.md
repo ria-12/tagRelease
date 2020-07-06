@@ -1,4 +1,4 @@
-# Tag & Release 사용법 v0.1
+# Tag & Release 사용법 v0.1 release
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
