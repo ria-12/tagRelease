@@ -1,4 +1,4 @@
-# Tag & Release 사용법
+# Tag & Release 사용법 v0.1
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -13,14 +13,13 @@
 ### 태그 추가!
 태그는 tag 명령어를 이용하여 추가 가능합니다.    
 Lightweight 태그는 ``` git tag [Tag Name] ``` 으로 붙일 수 있습니다.   
-
-    # git tag v1.0
-
+```bash
+    $ git tag v0.1
+```
 Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 -m 옵션을 추가 사용합니다.   
-
-    # git tag -a v1.0 -m"Release version 1.0"
-
-<img src="/img/tag.PNG"/>
+```bash
+    $ git tag -a v0.1 -m"Release version 0.1"
+```
 
 <!-- <출처>
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
