@@ -10,7 +10,7 @@
 > Git 에서는 일반적으로 이름 정보만을 갖는 '태그(Lightweight tag)'와 보다 상세한 정보를 포함하는 > '주석 태그(Annotated tag)', 이 두 가지 태그를 사용할 수 있습니다.
 </br>
 
-### 태그 추가!
+### 태그 추가
 태그는 tag 명령어를 이용하여 추가 가능합니다.    
 Lightweight 태그는 ``` git tag [Tag Name] ``` 으로 붙일 수 있습니다.   
 ```bash
@@ -20,6 +20,21 @@ Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 
 ```bash
     $ git tag -a v0.1 -m "version 0.1"
 ```
+
+### 태그 확인
+-n 옵션을 지정하여 tag 명령어를 실행하면 태그 목록과 주석 내용을 확인할 수 있습니다.
+```bash
+    $ git tag -n
+```
+<img src="./img/tan-n.PNG"/>
+
+show 옵션을 사용하면 태그의 세부 정보를 볼 수 있습니다.
+```bash
+    $ git show v0.1
+```
+
+### 태그 삭제하기
+
 
 <!-- <출처>
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
