@@ -1,4 +1,4 @@
-# Tag & Release 사용법 v0.1
+# Tag & Release 사용법 v0.2
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -20,7 +20,7 @@ Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 
 ```bash
     $ git tag -a v0.1 -m "version 0.1"
 ```
-
+-------------
 ### ● 태그 확인
 -n 옵션을 지정하여 tag 명령어를 실행하면 태그 목록과 주석 내용을 확인할 수 있습니다.
 ```bash
@@ -32,7 +32,8 @@ show 옵션을 사용하면 태그의 세부 정보를 볼 수 있습니다.
 ```bash
     $ git show v0.1
 ```
-
+   
+-------------
 ### ● 태그 원격 저장소에 올리기
 ```bash
     $ git push origin v0.2
@@ -41,23 +42,36 @@ show 옵션을 사용하면 태그의 세부 정보를 볼 수 있습니다.
 ```bash
     $ git push origin --tags 
 ```
+   
+-------------
 ### ● 태그 삭제하기
 -d 옵션을 추가하여 사용
 ```bash
-    $ git tag -d v0.1
+    $ git tag -d v0.2
 ```
 
 원격 저장소에 올라간 태그 삭제
 ```bash
     $ git push origin :v0.2
 ```
-
+-------------
 ### ● 태그로 branch 생성
 ```bash
     $ git branch release-v1.1 v1.0
 ```
+   
 
-<!-- <출처>
+## 2. Release란?
+Release Branch는 배포를 위한 전용 브랜치 입니다.
+develop 브랜치에서 배포할
+<!-- <References>
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
 http://minsone.github.io/git/git-addtion-and-modified-delete-tag
-https://webisfree.com/2017-07-31/git-%ED%83%9C%EA%B9%85%ED%95%98%EA%B8%B0-tag-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0 -->
+https://webisfree.com/2017-07-31/git-%ED%83%9C%EA%B9%85%ED%95%98%EA%B8%B0-tag-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+
+https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html
+https://mobicon.tistory.com/117?category=527260
+-->
+
+
+<!-- 태그를 중요 시점에 저장하면 나중에 특정 위치로 이동하거나 찾을때 매우 편리합니다. 이를 사용 활용할 수 있는 부분 중 하나로 배포(Deployment)에 활용할 수 있다는 점입니다. 해당 어플리케이션의 버전을 태그로 관리, 배포할 경우 매우 편리하죠. -->
