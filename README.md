@@ -26,15 +26,36 @@ Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 
 ```bash
     $ git tag -n
 ```
-<img src="./img/tan-n.PNG"/>
+<img src="/img/tan-n.PNG"/>
 
 show 옵션을 사용하면 태그의 세부 정보를 볼 수 있습니다.
 ```bash
     $ git show v0.1
 ```
 
+### 태그 원격 저장소에 올리기
+```bash
+    $ git push origin v0.2
+```
+모든 태그를 올리려면 ```--tags```를 사용
+```bash
+    $ git push origin --tags 
+```
 ### 태그 삭제하기
+-d 옵션을 추가하여 사용
+```bash
+    $ git tag -d v0.1
+```
 
+원격 저장소에 올라간 태그 삭제
+```bash
+    $ git push origin :v0.2
+```
+
+### 태그로 branch 생성
+```bash
+    $ git branch release-v1.1 v1.0
+```
 
 <!-- <출처>
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
