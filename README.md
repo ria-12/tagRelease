@@ -1,4 +1,4 @@
-# Tag & Release 사용법 v0.1 release
+# Tag & Release 사용법 v0.1
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -18,7 +18,7 @@ Lightweight 태그는 ``` git tag [Tag Name] ``` 으로 붙일 수 있습니다.
 ```
 Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 -m 옵션을 추가 사용합니다.   
 ```bash
-    $ git tag -a v0.1 -m"Release version 0.1"
+    $ git tag -a v0.1 -m "version 0.1"
 ```
 
 <!-- <출처>
