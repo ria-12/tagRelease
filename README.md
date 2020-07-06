@@ -20,7 +20,7 @@ Annotated 태그는 -a 옵션을 사용합니다. 메시지를 추가할 경우 
 
     # git tag -a v1.0 -m"Release version 1.0"
 
-<img src="./img/tag.jpg"/>
+<img src="/img/tag.jpg"/>
 
 <!-- <출처>
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
