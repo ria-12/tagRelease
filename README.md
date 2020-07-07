@@ -1,4 +1,4 @@
-# Release & Tag 사용법 v0.3
+# Release & Tag 사용법 v1.0
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -114,7 +114,7 @@ release branch를 삭제합니다.
 
 
 
-## References
+## 5. References
 > https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
 > http://minsone.github.io/git/git-addtion-and-modified-delete-tag
 > https://webisfree.com/2017-07-31/git-%ED%83%9C%EA%B9%85%ED%95%98%EA%B8%B0-tag-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
