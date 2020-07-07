@@ -65,7 +65,8 @@ show 옵션을 사용하면 태그의 세부 정보를 볼 수 있습니다.
 Release Branch는 배포를 위한 전용 브랜치 입니다.
 이름은 보통 'release-'를 앞에 붙입니다.
 release를 위한 최종적인 버그 수정 등의 개발을 수행하며, 모든 기능이 정상적으로 동작하는지 확인 후 배포 가능 상태가 되면 master 브랜치에 병합합니다. 배포 완료 후 develop 브랜치에도 병합을 수행합니다.   
-    
+</br>
+
 > master로 병합한 커밋에 해당 버전 태그를 추가합니다.
 </br>
 
@@ -74,9 +75,6 @@ release를 위한 최종적인 버그 수정 등의 개발을 수행하며, 모�
 <img src="/img/release_branch.PNG"/>
 
 </br>
-
-## 3. Release & Tag
-
 
 
 ## References
