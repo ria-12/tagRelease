@@ -76,6 +76,43 @@ release를 위한 최종적인 버그 수정 등의 개발을 수행하며, 모�
 
 </br>
 
+## 3. Release & tag
+
+이제 tag와 함께 release를 해보겠습니다.
+먼저 ``` develop ``` branch 에서 release branch를 생성합니다.
+```bash
+    $ git checkout -b release-1.0 develop
+```
+이 후, 배포 가능 상태가 되면 ``` master ``` branch에 병합합니다.
+
+```bash
+    $ git checkout master
+
+    $ git merge release-1.0
+```
+release 버전의 태그를 붙여줍니다.    
+보통 '릴리스 브랜치(Release branch)'에서는 주석 태그를 사용합니다.
+
+```bash
+    $ git tag -a v1.0 -m "version 1.0"
+```
+배포 완료 후 develop 브랜치에도 병합을 수행합니다.
+
+```bash
+    $ git checkout develop
+
+    $ git merge release-1.0
+```
+
+release branch를 삭제합니다.
+
+```bash
+    $ git branch -d release-1.0
+```
+        
+</br>
+
+## 4. Github release
 
 ## References
 > https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
