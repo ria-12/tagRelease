@@ -1,4 +1,4 @@
-# Release & Tag 사용법 v1.0
+# Release & Tag 사용법 v1.1
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -112,7 +112,28 @@ release branch를 삭제합니다.
         
 </br>
 
+## 4. Github Release!
+방금 만든 v1.0 태그로 Github를 사용해 봅시다!
+release에 들어가면 생성한 ``` v1.0 ```이 있음을 확인할 수 있습니다.
 
+<img src="/img/tag_v1.0.PNG"/>
+
+[Draft a new release]를 눌러 들어갑니다.
+
+<img src="/img/release_draft.png"/>
+
+위에서부터 채워나갑니다.
+
+- 사용할 태그 이름 입력
+- title 입력
+- describe 입력
+- 추가 파일 attach
+
+아직 안정적이지 않은 release면 해당 체크박스를 클릭합니다.   
+release 버튼을 누르면 다음과 같이 완료됩니다.
+<img src="/img/release_finish.png"/>
+
+</br>
 
 ## 5. References
 > https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
@@ -123,5 +144,3 @@ release branch를 삭제합니다.
 > https://mobicon.tistory.com/117?category=527260
 > https://backlog.com/git-tutorial/kr/stepup/stepup1_5.html
 
-
-<!-- 태그를 중요 시점에 저장하면 나중에 특정 위치로 이동하거나 찾을때 매우 편리합니다. 이를 사용 활용할 수 있는 부분 중 하나로 배포(Deployment)에 활용할 수 있다는 점입니다. 해당 어플리케이션의 버전을 태그로 관리, 배포할 경우 매우 편리하죠. -->
