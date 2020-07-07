@@ -1,4 +1,4 @@
-# Release & Tag 사용법 v1.1
+# Release & Tag 사용법 v2.0
 
 ## 1. tag 사용하기!
 태그는 간단하게 말하면 이름을 붙이는 것 입니다.   
@@ -143,4 +143,3 @@ release 버튼을 누르면 다음과 같이 완료됩니다.
 > https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html
 > https://mobicon.tistory.com/117?category=527260
 > https://backlog.com/git-tutorial/kr/stepup/stepup1_5.html
-
